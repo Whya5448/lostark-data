@@ -1,6 +1,6 @@
 package org.metalscraps.lostark
 
-enum class CombatStats(val id: Int, val friendlyName: String) {
+enum class CombatStats(val id: Byte, val friendlyName: String) {
     CRIT(15, "치명"),
     SPECIALIZATION(16, "특화"),
     SWIFTNESS(18, "신속"),
